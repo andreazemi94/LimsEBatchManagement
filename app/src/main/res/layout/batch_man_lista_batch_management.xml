@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_sample_batch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/batch_management_lista_sample"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:background="@drawable/background_titleanalysis_selector"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="21-017440-0009 MSD TQ @IT_VOL-GHCL_G500_SVOC1#1"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/batch_man_lista_header_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        app:layout_constraintStart_toEndOf="@+id/batch_management_lista_sample"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item1"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item2"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item1"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item3"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item2"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item4"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item3"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item5"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item4"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item6"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item5"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item7"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item6"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item8"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item7"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item9"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item8"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item10"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item9"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item11"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item10"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item12"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item11"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item13"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item12"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item14"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item13"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item15"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item14"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item16"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item15"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item17"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item16"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item18"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item17"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item19"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item18"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item20"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item19"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item21"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item20"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item22"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item21"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item23"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item22"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item24"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item23"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <Spinner
+            android:id="@+id/batch_man_lista_header_spinner_item25"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item24"
+            app:layout_constraintTop_toTopOf="@+id/batch_man_lista_header_result_item1" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item1"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item2"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item3"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item4"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item5"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item6"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item7"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item8"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item7"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item9"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item8"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item10"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item9"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item11"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item10"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item12"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item11"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item13"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item12"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item14"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item13"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item15"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item16"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item15"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item17"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item16"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item18"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item17"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item19"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item18"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item20"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item19"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item21"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_spinner_item20"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item22"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item21"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item23"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item22"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item24"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item23"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/batch_man_lista_header_result_item25"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:background="@drawable/background_titleresult"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_result_item24"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

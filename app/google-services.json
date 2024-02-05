@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061345121226",
+    "project_id": "limse-batch-management-hd",
+    "storage_bucket": "limse-batch-management-hd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061345121226:android:362d2221b1c86bdb8ff533",
+        "android_client_info": {
+          "package_name": "com.example.limsebatchmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH99M3OnjCg25_LUDW8SMhZB0KpOBxL7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

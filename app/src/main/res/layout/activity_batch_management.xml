@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BatchManagement.BatchManagement">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/batch_man_lista_header_analysiscomponent"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="170dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button1"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item1" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button2"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button1"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item2" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button3"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button2"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item3" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button4"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button3"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item4" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button5"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button4"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item5" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button6"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button5"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item6" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button7"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button6"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item7" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button8"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button7"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item8" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button9"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button8"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item9" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button10"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button9"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item10" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button11"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button10"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item11" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button12"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button11"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item12" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button13"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button12"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item13" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button14"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button13"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item14" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button15"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button14"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item15" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button16"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button15"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item16" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button17"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button16"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item17" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button18"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button17"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item18" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button19"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button18"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item19" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button20"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button19"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item20" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button21"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button20"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item20" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button22"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button21"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item20" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button23"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button22"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item20" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button24"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button23"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item20" />
+
+        <ImageButton
+            android:id="@+id/batch_man_lista_header_propagazione_button25"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_propagazione_giu_selector"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_propagazione_button24"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_component_item20" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item1"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item2"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item1"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item3"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item2"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item4"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item3"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item5"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item4"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item6"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item5"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item7"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item6"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item8"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item7"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item9"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item8"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item10"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item9"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item11"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item10"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item12"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item11"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item13"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item12"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item14"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item13"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item15"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item14"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item16"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item15"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item17"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item16"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item18"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item17"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item19"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item18"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item20"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item19"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item21"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item20"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item22"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item21"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item23"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item22"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item24"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item23"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_component_item25"
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="asbestos(SEM qualitative identification)"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_component_item24"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysis_item1" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item1"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item2"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item3"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item4"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item5"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item6"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item7"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item8"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item7"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item9"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item8"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item10"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item9"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item11"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item10"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item12"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item11"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item13"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item12"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item14"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item13"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item15"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item16"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item15"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item17"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item16"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item18"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item17"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item19"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item18"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item20"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item19"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item21"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item20"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item22"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item21"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item23"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item22"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item24"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item23"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/batch_man_lista_header_analysis_item25"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_titleanalysis"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="G_ASBCALC_ELU_FTIR_W"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/batch_man_lista_header_analysis_item24"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/batch_man_layout_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_merieux"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/batch_man_textviex_email2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="11dp"
+            android:text="Batch Management"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo_merieux_white2" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/background_menu_batch_man"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/batch_man_textviex_email2"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/batch_man_button_limiti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/ic_limiti"
+                android:backgroundTint="@drawable/ic_header_selector"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/batch_man_button_creazione_file"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/batch_man_button_recovery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/ic_recovery"
+                android:backgroundTint="@drawable/ic_header_selector"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/batch_man_button_limiti"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/batch_man_button_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/ic_note"
+                android:backgroundTint="@drawable/ic_header_selector"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/batch_man_button_manuale"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/batch_man_button_salva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/ic_salva"
+                android:backgroundTint="@drawable/ic_header_selector"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/batch_man_button_note"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/batch_man_button_creazione_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/ic_excel"
+                android:backgroundTint="@drawable/ic_header_selector"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/batch_man_button_salva"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/batch_man_button_manuale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/ic_manuale"
+                android:backgroundTint="@drawable/ic_header_selector"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/batch_man_layout_header">
+
+        <TextView
+            android:id="@+id/batch_man_textviex_nomebatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="11dp"
+            android:text="Nome Batch"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/batch_man_textviex_nomebatch">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textviex15"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Due Date"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textviex14"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviex14"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Fcst End"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textviex31"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviex28"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Instrument"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviex31"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Fcst Start"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textviex30"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviex30"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="N° Test"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textviex28"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviex16"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Fcst User"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textviex15"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviex17"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Q. Lvl"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textviex16"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviex18"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Pri"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textviex17"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textviex19"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Phase"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textviex18"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/grey_medium_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/batch_man_textviex_duedate"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Due Date"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_grey"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/batch_man_textviex_fcstend"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/batch_man_textviex_fcstend"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Fcst End"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_grey"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/batch_man_textviex_fcststart"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/batch_man_textviex_instrument"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Instrum."
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_grey"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/batch_man_textviex_ntest"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="N° Test"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_grey"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/batch_man_textviex_instrument"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/batch_man_textviex_fcststart"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="01/01/2022"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_grey"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/batch_man_textviex_ntest"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/batch_man_textviex_fcstuser"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="I_ANDZEM"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_grey"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/batch_man_textviex_duedate"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/batch_man_textviex_quallvl"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="20_Standard"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_grey"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/batch_man_textviex_fcstuser"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/batch_man_textviex_pri"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Pri"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_grey"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/batch_man_textviex_quallvl"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/batch_man_textviex_phase"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Regular"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_grey"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/batch_man_textviex_pri"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/batch_man_reciclerview_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="303dp"
+        android:background="@color/white"
+        android:scrollbars="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/batch_man_lista_header_analysiscomponent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <EditText
+        android:id="@+id/mod2372_gridview_fibre_lunghezza"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/background_edittext"
+        android:gravity="center"
+        android:inputType="text"
+        android:nextFocusDown="@+id/mod2372_gridview_fibre_diametro"
+        android:padding="2dp"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mod2372_gridview_tipofibra"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mod2372_gridview_fibre_diametro"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/background_edittext"
+        android:gravity="center"
+        android:inputType="text"
+        android:padding="2dp"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mod2372_gridview_fibre_lunghezza"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mod2372_gridview_fibre_id"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="000"
+        android:textColor="@color/text_grey"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/mod2372_gridview_tipofibra"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/background_edittext"
+        android:gravity="center"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mod2372_gridview_fibre_id"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

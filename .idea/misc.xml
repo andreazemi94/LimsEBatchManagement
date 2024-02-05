@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.104" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/drawable/ic_scheduler_selector.xml" value="0.1075" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/activity_batch_management.xml" value="0.6" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/activity_main.xml" value="0.5146341463414634" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/activity_main_lista_batch.xml" value="0.4" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/activity_main_scheduler.xml" value="0.6" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/activity_main_scheduler_error_log_item.xml" value="0.4013671875" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/activity_main_scheduler_process_item.xml" value="0.72" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/activity_main_unlock_batch.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/activity_main_unlock_batch_item.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/batch_man_mod2372.xml" value="0.8" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/batch_man_mod2548.xml" value="0.2" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/batch_man_mod2805.xml" value="0.4" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/batch_man_moe_gridview_2548_item.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/batch_man_moe_spinner_default.xml" value="0.25" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/batch_man_moe_spinner_disable.xml" value="0.25" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/batch_man_moe_spinner_dropdown.xml" value="0.25" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/batch_man_note.xml" value="0.72" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/batch_man_note_sample.xml" value="0.26095238095238094" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement HD/app/src/main/res/layout/officialpdf.xml" value="0.6" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement Plus/app/src/main/res/drawable/background_edittext.xml" value="0.1095" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement Plus/app/src/main/res/drawable/background_edittext_disable.xml" value="0.1095" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement Plus/app/src/main/res/drawable/background_edittext_temporary.xml" value="0.1095" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement Plus/app/src/main/res/layout/activity_batch_management.xml" value="0.536" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement Plus/app/src/main/res/layout/batch_man_note_sample.xml" value="0.72" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement Plus/app/src/main/res/layout/batch_man_risultati_conflitto.xml" value="0.6" />
+        <entry key="..\:/Users/andrea.zemignani/AndroidStudioProjects/LimsEBatchManagement Plus/app/src/main/res/layout/batch_man_risultati_conflitto_lista.xml" value="0.6" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
