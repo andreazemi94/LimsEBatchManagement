@@ -9,8 +9,8 @@ import java.util.*;
 public final class FirebaseDatabaseMng {
     private final Map<String,Map<String,String>> documents = new HashMap<>();
     private enum DB_URL{
-        WET("https://limse-batch-management-hd-default-rtdb.firebaseio.com"),
-        INORG("https://limse-batch-management-hd-default-rtdb.firebaseio.com"),
+        WET("https://limse-batch-management-h-de6cb-default-rtdb.firebaseio.com"),
+        INORG("https://limse-batch-management-h-b0329-default-rtdb.firebaseio.com"),
         MOE("https://limse-batch-management-hd-default-rtdb.firebaseio.com"),
         MICR("https://limse-batch-management-hd-default-rtdb.firebaseio.com"),
         ANDZEM("https://limse-batch-management-hd-default-rtdb.firebaseio.com");

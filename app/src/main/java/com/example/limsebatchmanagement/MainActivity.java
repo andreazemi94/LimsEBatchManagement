@@ -7,10 +7,8 @@ import android.view.View;
 import android.widget.*;
 import androidx.annotation.*;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import com.example.limsebatchmanagement.Adapter.AdapterBatch;
-import com.example.limsebatchmanagement.Adapter.AdapterSchedulerErrorLog;
-import com.example.limsebatchmanagement.Archiviazione.FileCsv;
-import com.example.limsebatchmanagement.Archiviazione.FilePdf;
+import com.example.limsebatchmanagement.Adapter.*;
+import com.example.limsebatchmanagement.Archiviazione.*;
 import com.example.limsebatchmanagement.BackupDatabase.BackupManagement;
 import com.example.limsebatchmanagement.BatchManagement.BatchManagement;
 import com.example.limsebatchmanagement.DatabaseLocal.DatabaseBuilder;
@@ -25,15 +23,11 @@ import com.google.android.gms.tasks.Task;
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
 import com.google.api.services.drive.Drive;
 import com.google.firebase.database.DatabaseReference;
-
 import java.io.File;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.Executors;
-
-
-
 
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class MainActivity extends Activity {
@@ -125,6 +119,7 @@ public class MainActivity extends Activity {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.R)
     @Override
     protected void onPostResume() {
         super.onPostResume();

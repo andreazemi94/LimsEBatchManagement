@@ -161,8 +161,7 @@ public class FilePdf {
     }
     public static void upload(File pdfFile, Drive drive) throws IOException {
         if(pdfFile.getName().contains("LABORATORIO")) {
-            String idNote = DirectoryTree.getId(drive,"Note",DirectoryTree.idArchivio);
-            pdfUpload(pdfFile, drive, idNote);
+            pdfUpload(pdfFile, drive, DirectoryTree.idEsportazione);
         }
         else
             pdfUpload(pdfFile,drive,DirectoryTree.idBatch);

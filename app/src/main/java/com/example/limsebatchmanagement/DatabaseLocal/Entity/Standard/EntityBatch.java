@@ -54,6 +54,7 @@ public class EntityBatch extends EntityGeneric{
     public EntityGeneric create(Map<String,String> map) {
         EntityBatch eb = new EntityBatch();
         map.forEach((k,v)->{
+
             switch (k){
                 case"BATCH_NAME": eb.batchName=v; break;
                 case"INSTRUMENT": eb.instrument=v; break;
@@ -64,7 +65,7 @@ public class EntityBatch extends EntityGeneric{
                 case"MIN_DUE_DATE_STR": eb.minDueDate=v; break;
                 case"BATCH_QUALITY_VALUE": eb.batchQualityLevel=v; break;
                 case"BATCH_DUE_DATE_TYPE_VALUE": eb.batchDueDateTypeValue=v; break;
-                case"BATCH_PHASE": eb.batchPhase=v; break;
+                case"BATCH_STEP": eb.batchPhase=v; break;
                 case"STATUS": eb.status=v; break;
                 case"EXPORT_FILE": eb.exportFile=v; break;
                 case"NOTE_UFFICIALI": eb.noteUfficiali=v; break;
@@ -88,7 +89,7 @@ public class EntityBatch extends EntityGeneric{
         docInt.put("MIN_DUE_DATE_STR",this.minDueDate);
         docInt.put("BATCH_QUALITY_VALUE",this.batchQualityLevel);
         docInt.put("BATCH_DUE_DATE_TYPE_VALUE",this.batchDueDateTypeValue);
-        docInt.put("BATCH_PHASE",this.batchPhase);
+        docInt.put("BATCH_STEP",this.batchPhase);
         docInt.put("STATUS",this.status);
         docInt.put("EXPORT_FILE",this.exportFile);
         docInt.put("NOTE_UFFICIALI",this.noteUfficiali);
@@ -109,6 +110,7 @@ public class EntityBatch extends EntityGeneric{
         this.status = batchCompare.status;
         this.exportFile = batchCompare.exportFile;
         this.semaphore = batchCompare.semaphore;
+        this.batchPhase = batchCompare.batchPhase;
         this.noteUfficiali = (this.noteUfficiali.equals(EntityBatch.NOTE_VUOTE))? batchCompare.noteUfficiali : this.noteUfficiali;
         this.noteLab = (this.noteLab.equals(EntityBatch.NOTE_VUOTE))? batchCompare.noteLab : this.noteLab;
         db.SqlBatch().update(this);
